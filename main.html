@@ -1,16 +1,95 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Favorite Movie</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #555;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    summary {
+      padding: 20px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    aside {
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <header>
+    <h1>Favorite Movie</h1>
+  </header>
 
+  <nav>
+    <a href="#nav-actor">Actors</a>
+    <a href="#nav-quote">Quotes</a>
+  </nav>
+
+  <summary>
+    <h2>Plot Summary</h2>
+    <p>A brief description of the movie's plot goes here.</p>
+  </summary>
+
+  <section id="actor">
+    <h2>Actors</h2>
+    <ul>
+      <li>Actor 1</li>
+      <li>Actor 2</li>
+      <li>Actor 3</li>
+    </ul>
+  </section>
+
+  <section id="quote">
+    <h2>Favorite Quote</h2>
+    <blockquote>
+      <p>"This is my favorite quote from the movie."</p>
+      <cite>Character Name</cite>
+    </blockquote>
+  </section>
+
+  <aside>
+    <h2>Movie Information</h2>
+    <p>IMDb Rating: 8.5</p>
+    <p>Release Date: January 1, 2022</p>
+  </aside>
+
+  <footer>
+    <p>Produced by: John Producer</p>
+  </footer>
 </body>
-
 </html>
